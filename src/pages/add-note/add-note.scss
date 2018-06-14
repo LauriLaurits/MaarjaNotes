@@ -1,0 +1,19 @@
+page-add-note {
+    ion-content {
+        background: url(../assets/imgs/136.jpg) no-repeat center fixed;
+        background-size: cover;
+        &:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background-image: linear-gradient(to bottom right,#ff78bb,#b2497d);
+            opacity: .6; 
+        }
+    }
+    ion-input, ion-item {
+        color: #cc5490 ;
+    }
+}

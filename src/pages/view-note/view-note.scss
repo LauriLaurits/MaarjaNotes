@@ -1,0 +1,26 @@
+page-view-note {
+    ion-content {
+        background: url(../assets/imgs/136.jpg) no-repeat center fixed;
+        background-size: cover;
+        &:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background-image: linear-gradient(to bottom right,#ff78bb,#b2497d);
+            opacity: .6; 
+        }
+    }
+
+    .note-date{
+        font-size: 0.8em;
+        color: #e55ea2;
+        margin-bottom: 12px;
+    }
+    .card-title.card-title-md, div.note-content{
+        color: #b2497d;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
